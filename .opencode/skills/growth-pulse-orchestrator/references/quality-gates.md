@@ -30,6 +30,12 @@ Verify with fresh evidence before claiming DONE. Check all applicable groups.
 - Hierarchy, rhythm, composition deliberate at every breakpoint
 - Motion purposeful; reduced-motion respected; works with JS disabled
   where applicable
+- Motion minimum met (hover/tap response + at least one scroll reveal on
+  substantial work)
+- No single texture/background reused across more than one section without a
+  documented fresh decision for each use
+- No debug/comparison/attribution artifacts in the rendered production page
+- Asset tonal-match verification completed per photographic/generative asset
 
 ## CONTENT / CLAIM HYGIENE
 - No fake testimonials, statistics, logos, reviews, results, partnerships

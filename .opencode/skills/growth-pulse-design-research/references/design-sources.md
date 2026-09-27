@@ -25,6 +25,14 @@ re-verify availability before citing (gallery rotations, paywalls).
   application patterns. Best for dashboards, onboarding, settings, mobile app
   flows. Not a marketing-site source.
 
+## Icons (MIT-or-verified only; check per icon set)
+
+- **iconoir.com** — open-source SVG icon library. Best for interface icons in
+  any stack; self-host the SVGs, never hotlink. Verify the license of the
+  version pulled before shipping.
+- **animatedicons.co** — animated icon sets. Motion counts against the
+  one-effect-per-page discipline; verify license per set before use.
+
 ## Systems + starting material (transform, never copy)
 
 - **Figma Community** — design systems, UI kits, templates, wireframes,
@@ -38,6 +46,29 @@ re-verify availability before citing (gallery rotations, paywalls).
 - **Aceternity UI** — component/interaction patterns with heavy motion.
   Useful for studying interaction feel; high slop risk if pasted wholesale —
   one effect per page maximum, purposeful only.
+- **uiverse.io** — community-built UI elements and components. Starting
+  geometry only; restyle to project tokens, pass the transformation test,
+  verify license per element.
+- **21st.dev** — component registry / starting material. Same transform
+  rules; verify license per component before use.
+- **designvault.io** — pattern vault for flows and sections. Research input,
+  not shippable code; verify per item.
+- **balsa-ui.com** — verify before use: confirm what it offers, its license,
+  and its suitability before citing or pulling anything.
+- **springs.studio** — verify before use (offer, license, suitability).
+- **craftwork.design** — verify before use (offer, license, suitability).
+- **designspells.com** — verify before use (offer, license, suitability).
+
+## Effects / motion tools (one effect per page maximum, purposeful only)
+
+- **useanimations.com** — animated micro-interaction icons. Verify license
+  per use; reduced-motion safe or it doesn't ship.
+
+## Verify-before-use flags (never cite as established until checked)
+
+- **gkurt.com/tegaki**, **meshfont.com** — unverified sources. Confirm each
+  site exists, what it offers, its license, and its suitability before
+  referencing it in any brief. Never record either as used without that check.
 
 ## Skill catalogs (expertise on demand)
 

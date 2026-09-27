@@ -26,5 +26,15 @@ Curated from: `vercel-labs/agent-skills` react-best-practices v1.0.0 MIT (inspec
 - No barrel re-export chains in hot paths.
 - Verify: build + typecheck + lint clean before DONE. No claim without fresh output.
 
+## Default stack policy
+
+For NEW client-facing production websites, the default architecture is
+Next.js + React + TypeScript + Tailwind + Motion — applied without being told,
+with shadcn where it is genuinely the better call (never wholesale, never
+forced for its own sake). Override deliberately with a documented reason: an
+existing healthy architecture (Astro docs site, Shopify storefront,
+automation-only request, single-page static test) is inspected first and never
+forced onto the default stack.
+
 ## Output
 - Files changed + pattern applied (e.g. async-parallel, bundle-dynamic-imports) + build/typecheck evidence + remaining risks.

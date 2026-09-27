@@ -11,7 +11,9 @@ Produce this internally before final delivery. Only recommend handoff when all a
 - [ ] Brand appropriate
 - [ ] Not generic / template-like
 - [ ] Mobile design considered
-- [ ] Motion purposeful
+- [ ] Motion concrete: hover/tap response present; scroll reveal present on substantial work; reduced-motion respected
+- [ ] No debug/comparison/attribution leakage in shippable pages
+- [ ] Photographic assets tonally consistent with palette and adjacent text, confirmed per item
 
 ## FUNCTION
 - [ ] Primary flows tested

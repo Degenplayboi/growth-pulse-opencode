@@ -66,7 +66,7 @@ clones unless routing genuinely requires it (it doesn't today).
 - References used (3–7 or "none — <reason>")
 - Patterns observed + patterns intentionally rejected
 - Typography / composition / interaction / motion direction
-- **Asset Manifest (required for any interface with photographic or illustrative content — hero + every section):** one entry per asset — subject, composition/crop per breakpoint (360 / 768 / 1280+), production route (stock / generative / HTML-CSS, per `growth-pulse-creative` method selection). No entry may be "TBD" at handoff; unavailable assets are `[TODO: client]` with an explicit fallback route.
+- **Asset Manifest (required for any interface with photographic or illustrative content — hero + every section):** one entry per asset — subject, composition/crop per breakpoint (360 / 768 / 1280+), production route (stock / generative / HTML-CSS / component-library / icon-library, per `growth-pulse-creative` method selection). No entry may be "TBD" at handoff; unavailable assets are `[TODO: client]` with an explicit fallback route.
 - Responsive strategy
 - **Visual thesis: one concrete sentence tied to THIS project.**
   Reject "modern premium SaaS", "clean and professional", "minimal and

@@ -6,7 +6,7 @@ Prefer an available specialist skill over reinventing its methodology. Auto-load
 - frontend design, web design guidelines, design engineering
 - UX, visual hierarchy, typography, responsive design
 - motion, micro-interactions, conversion design
-- `growth-pulse-creative`: load whenever design-research's brief includes an asset manifest — not GROWTH-only.
+- `growth-pulse-creative`: loads whenever design-research's brief includes an asset manifest — not GROWTH-category-only.
 
 ## DEVELOPMENT — load by stack / feature
 - React, Next.js, TypeScript, Tailwind, component architecture
@@ -60,6 +60,21 @@ Prefer an available specialist skill over reinventing its methodology. Auto-load
 - DESIGN SYSTEM (`growth-pulse-design-system`): reusable component systems, Tailwind present, shadcn present, SaaS/dashboard/web-app UI, explicit design-system need. Frontend-design owns WHAT it looks like; design-system owns HOW it is built.
 
 Ownership: implementation guidance in implementation specialist; measurement in measurement specialist; pass/fail criteria in quality-audit; evidence/claim rules in verification; production orchestration in deploy.
+
+## Tiering (mandatory vs default vs conditional)
+
+- MANDATORY (every project, never skipped or downgraded): inspect repo,
+  classify project, research before designing, design before coding,
+  responsive, accessibility L1, security L1, quality audit, verification.
+- DEFAULT (new client-facing production websites; override deliberately with a
+  documented reason): Next.js + React + TypeScript + Tailwind + Motion; shadcn
+  where useful, never forced; Playwright; SEO; performance; conversion; visual QA.
+- CONDITIONAL (only when the project actually needs them): Supabase, Stripe,
+  auth, n8n, Remotion, e-commerce, booking, and any other specialized stack.
+
+Rule: default intelligently, override deliberately — an existing healthy
+architecture (Astro docs site, Shopify storefront, n8n automation request) is
+inspected first and never forced onto the default stack.
 
 ## Routing procedure
 1. Map classification -> specialist areas above.
