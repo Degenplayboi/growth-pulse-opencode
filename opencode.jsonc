@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // MCP policy: native → official → maintained OSS → trusted community.
+  // context7 (docs) is the only MCP justified now. Add playwright/github/n8n/
+  // telegram MCPs only when the matching runtime exists (local server, repo
+  // workflow, n8n instance, Telegram bot) — see growth-pulse-automation.
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp"
+    }
+  }
+}
