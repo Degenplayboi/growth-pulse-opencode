@@ -15,7 +15,7 @@ Curated from: `vercel-labs/agent-skills` web-design-guidelines + `vercel-labs/we
 - No horizontal overflow, no clipped CTA, nav works (hamburger if needed), tap targets >=44px, readable type, tables/cards stack, images scale.
 
 ## 2. Visual
-- Type scale, spacing rhythm, alignment grid, consistent radius/shadow, images load with dimensions, no layout shift, dark/light if applicable, motion purposeful + reduced-motion respected.
+- Type scale, spacing rhythm, alignment grid, consistent radius/shadow, images load with dimensions, no layout shift, dark/light if applicable, motion purposeful + reduced-motion respected. Where a design-research asset manifest exists: every manifest entry is present at each breakpoint, traced by name to its manifest entry — not a placeholder, gradient, or generic substitute standing in for it.
 
 ## 3. Accessibility (WCAG 2.2 AA target)
 - Semantic landmarks (main/nav/header/footer), one h1, logical h2/h3, labels for all inputs, error tied via aria-describedby, focus visible + logical order, keyboard operable + Esc closes, contrast AA, alt text meaningful (decorative empty), no keyboard trap.

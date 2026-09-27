@@ -45,6 +45,10 @@ The final interface must look deliberately designed by a strong human product/de
 - Brief: subject, audience, primary conversion goal, brand constraints
 - If missing: propose 1 concrete subject + audience + job, confirm before building
 
+## Imagery and Atmosphere
+
+Hero image style, atmosphere, and materiality are visual-direction decisions on the same level as typography and hierarchy — decided here, never left to IMPLEMENT to improvise. For every hero and section carrying photographic or illustrative content, specify: subject, mood and materiality, composition and crop per breakpoint, and the production route from the design-research asset manifest (stock / generative / HTML-CSS). A page with zero photographic content and only CSS standing in for art is a missing art-direction decision, not a passing visual.
+
 ## 1. Anti-Slop Principle
 
 Never accept an interface simply because it is technically polished.

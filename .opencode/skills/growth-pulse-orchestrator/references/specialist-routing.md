@@ -6,6 +6,7 @@ Prefer an available specialist skill over reinventing its methodology. Auto-load
 - frontend design, web design guidelines, design engineering
 - UX, visual hierarchy, typography, responsive design
 - motion, micro-interactions, conversion design
+- `growth-pulse-creative`: load whenever design-research's brief includes an asset manifest — not GROWTH-only.
 
 ## DEVELOPMENT — load by stack / feature
 - React, Next.js, TypeScript, Tailwind, component architecture
